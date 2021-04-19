@@ -2,7 +2,7 @@
                 [cljs-bean "1.5.0"]
                 [cljsjs/moment "2.24.0-0"]
                 [com.cognitect/transit-cljs "0.8.256"]
-                [com.taoensso/timbre "4.10.0" :exclusions [io.aviso/pretty]]
+                [com.taoensso/timbre "5.1.2"]
                 [enlive "1.1.6"]
                 [hiccup "1.0.5"]
                 [markdown-clj "1.10.1"]

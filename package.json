@@ -90,6 +90,7 @@
     "electron-notarize": "1.0.0",
     "module-deps": "6.2.2",
     "resolve": "1.14.2",
+    "shadow-cljs": "2.9.10",
     "webpack": "4.41.2"
   }
 }
