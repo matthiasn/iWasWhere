@@ -39,7 +39,7 @@
     "electron-log": "4.0.3",
     "electron-updater": "4.2.0",
     "emoji-flags": "1.2.0",
-    "find-process": "1.4.3",
+    "find-process": "1.4.4",
     "globalize": "1.4.2",
     "iana-tz-data": "2019.1.0",
     "imap": "0.8.19",
