@@ -1,0 +1,142 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase-if-necessary
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 5.18.0
+    - 5.19.0
+    - 5.20.0
+    - 5.20.1
+    - 5.20.2
+    - 5.21.2
+    - 5.22.0
+    - 5.23.0
+    - 5.24.0
+    - 5.24.1
+    - 5.24.2
+    - 5.24.3
+    - 5.24.4
+    - 5.25.1
+    - 5.26.0
+    - 5.26.2
+    - 5.26.3
+    - 5.27.1
+    - 5.27.2
+    - 5.28.0
+    - 5.30.0
+    - 5.31.0
+    - 5.31.2
+    - 5.32.0
+    - 5.33.2
+    - 5.34.0
+    - 5.35.0
+    - 5.35.1
+  - dependency-name: electron
+    versions:
+    - 11.2.1
+    - 11.2.2
+    - 11.2.3
+    - 11.3.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 12.0.4
+  - dependency-name: electron-log
+    versions:
+    - 4.3.1
+    - 4.3.2
+    - 4.3.3
+  - dependency-name: react-big-calendar
+    versions:
+    - 0.30.0
+    - 0.31.0
+    - 0.32.0
+    - 0.33.0
+    - 0.33.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.21
+  - dependency-name: react-list
+    versions:
+    - 0.8.16
+  - dependency-name: tweetnacl
+    versions:
+    - 1.0.3
+- package-ecosystem: npm
+  directory: "/MeinsApp"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase-if-necessary
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.10
+    - 7.12.13
+    - 7.12.16
+    - 7.12.17
+    - 7.13.1
+    - 7.13.10
+    - 7.13.13
+    - 7.13.14
+    - 7.13.15
+    - 7.13.8
+  - dependency-name: "@babel/runtime"
+    versions:
+    - 7.12.13
+    - 7.12.18
+    - 7.12.5
+    - 7.13.10
+    - 7.13.2
+    - 7.13.6
+    - 7.13.7
+    - 7.13.8
+    - 7.13.9
+  - dependency-name: metro-react-native-babel-preset
+    versions:
+    - 0.64.0
+    - 0.65.0
+    - 0.65.1
+    - 0.65.2
+  - dependency-name: react-native-camera
+    versions:
+    - 3.42.0
+    - 3.42.1
+    - 3.42.2
+    - 3.42.3
+    - 3.43.0
+    - 3.43.1
+    - 3.43.2
+    - 3.43.3
+    - 3.43.5
+  - dependency-name: react-dom
+    versions:
+    - 16.13.1
+    - 17.0.1
+  - dependency-name: react-native-background-fetch
+    versions:
+    - 3.1.0
+    - 4.0.0
+    - 4.0.1
+  - dependency-name: react-native-qrcode-svg
+    versions:
+    - 6.0.6
+    - 6.0.7
+    - 6.1.0
