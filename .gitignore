@@ -30,6 +30,8 @@ resources/public/css/loader.css
 figwheel_server.log
 out/
 test2junit/
+.jest
+converage/
 
 bak/
 bin/
