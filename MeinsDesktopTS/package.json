@@ -30,7 +30,7 @@
     "@types/better-sqlite3": "^5.4.0",
     "@types/lodash": "^4.14.161",
     "apollo-server": "^2.17.0",
-    "better-sqlite3": "^7.1.0",
+    "better-sqlite3": "^7.4.1",
     "edn-to-js": "^0.1.2",
     "graphql": "^15.3.0",
     "lato-font": "^3.0.0",
@@ -40,10 +40,10 @@
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sqlite3": "^5.0.0",
+    "sqlite3": "^5.0.2",
     "typeface-montserrat": "0.0.75",
     "typeface-oswald": "^1.1.4",
-    "typeorm": "^0.2.25"
+    "typeorm": "^0.2.34"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "~1.17.0",
@@ -54,15 +54,15 @@
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "@types/sqlite3": "^3.1.6",
-    "electron": "^10.1.1",
-    "electron-builder": "^22.8.0",
-    "electron-rebuild": "^2.0.1",
+    "electron": "^13.1.4",
+    "electron-builder": "^22.11.7",
+    "electron-rebuild": "^2.3.5",
     "jest": "~26.4.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^6.0.1",
     "prettier": "2.1.1",
     "ts-jest": "~26.3.0",
     "ts-loader": "^8.0.3",
-    "typescript": "^4.0.2",
+    "typescript": "^4.3.4",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
