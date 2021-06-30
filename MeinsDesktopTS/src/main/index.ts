@@ -16,13 +16,14 @@ function createWindow() {
     height: width - 100,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
     },
   })
 
   const indexHTML = path.join(__dirname + '/../index.html')
   win.loadFile(indexHTML).then(() => {
     log.info('Main window loaded')
-    //importEdn()
+    importEdn()
   })
 }
 

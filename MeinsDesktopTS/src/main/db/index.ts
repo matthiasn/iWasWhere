@@ -1,7 +1,7 @@
 import {Connection, ConnectionOptions, createConnection} from 'typeorm'
 import {ORMEntry} from './entities/entry'
 
-const DB_PATH = '/tmp/meinsTS/db'
+const DB_PATH = '/tmp/meinsTS/meins.db'
 const options: ConnectionOptions = {
   type: 'sqlite',
   database: DB_PATH,

@@ -30,8 +30,8 @@ export async function processFile(fileName: string) {
       const entryJson = JSON.stringify(parsed)
       entry.entryJson = entryJson
       entry.timestamp = parsed.timestamp
-      //const dbRes = await db.getRepository(ORMEntry).insert(entry)
-      insertEntry({timestamp: parsed.timestamp, entryJson})
+      const dbRes = await db.getRepository(ORMEntry).insert(entry)
+      //insertEntry({timestamp: parsed.timestamp, entryJson})
       if (n % 10000 === 0) {
         log.info('entryProcessor', fileName, n)
       }

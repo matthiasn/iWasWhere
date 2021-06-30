@@ -1,8 +1,8 @@
 import Database from 'better-sqlite3'
 
-const DB_PATH = '/tmp/meinsTS/db'
-//const db = new Database(DB_PATH, {verbose: console.log})
-const db = new Database(DB_PATH)
+const DB_PATH = '/tmp/meinsTS/meins.db'
+const db = new Database(DB_PATH, {verbose: console.log})
+//const db = new Database(DB_PATH)
 
 export type TabSearchParams = {
   limit: number
